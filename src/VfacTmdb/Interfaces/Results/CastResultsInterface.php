@@ -57,7 +57,7 @@ interface CastResultsInterface
      * Image profile path
      * @return string
      */
-    public function getProfilePath() : string;
+    public function getProfilePath() : ?string;
 
     /**
      * Order

@@ -143,7 +143,7 @@ class Cast extends Results implements CastResultsInterface
      * Get profile path
      * @return string
      */
-    public function getProfilePath() : string
+    public function getProfilePath() : ?string
     {
         return $this->profile_path;
     }
