@@ -3,3 +3,4 @@
 /docs/
 /build/
 .php_cs.cache
+.idea

@@ -78,4 +78,15 @@ abstract class Item
             throw $ex;
         }
     }
+
+    /**
+     * Get any field from $data with magic method
+     *
+     * @param $field
+     * @return TmdbInterface|null
+     */
+    public function __get($field)
+    {
+        return $this->data->{$field} ?? null;
+    }
 }
